@@ -42,7 +42,7 @@ export function Avaliacoes() {
 
         <Itens>
         <Item>
-                <h3>Chamada Diaria</h3>
+                <h3>Chamada Diária</h3>
                 <BoxImg>
                     <img src={chamada} alt="livro Logo" />
                 </BoxImg>

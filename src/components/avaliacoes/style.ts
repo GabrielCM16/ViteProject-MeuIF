@@ -3,7 +3,7 @@ import {styled} from "styled-components";
 export const Item = styled.div`
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ede5a3;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -19,6 +19,7 @@ export const Main = styled.div`
     margin: 0;
     align-items: center;
     justify-content: center;
+    background-color: #fbf9e8;
 `;
 
 export const BoxImg = styled.div`

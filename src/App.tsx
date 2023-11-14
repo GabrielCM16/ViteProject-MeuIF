@@ -1,6 +1,7 @@
 import { Footer } from "./components/footer"
 import { Avaliacoes } from "./components/avaliacoes"
 import { ConclusaoAvaliacoes } from "./components/conclusaoAvaliacoes"
+import { Conclusao } from "./components/conclusao"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
      
         <Avaliacoes/>
         <ConclusaoAvaliacoes/>
+        <Conclusao/>
       
       <Footer/>
      

@@ -12,6 +12,25 @@ export const Item = styled.div`
     width: 450px;
 `;
 
+export const ItemH3 = styled.h3`
+    margin-bottom: 0px;
+`;
+
+export const DivEmails = styled.div`
+align-items: right;
+`;
+
+
+export const Email = styled.div`
+    width: 18px;
+    margin-left: 10px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+`;
+
+
 export const Main = styled.div`
     border: 1px solid #ede5a3;
     display: flex;
@@ -38,20 +57,20 @@ export const BoxImg = styled.div`
 `;
 
 export const Title = styled.h2`
-  text-align: left;
+  text-align: right;
   margin-bottom: 10px;
   border-bottom: 2px solid #333;
   padding-bottom: 5px;
 `;
 
 export const TitleFinal = styled.p`
-  text-align: left;
+  text-align: right;
   font-size: 16px;
   font-family: Arial, sans-serif;
   margin-top: 10px;
   margin-bottom: 20px;
   width: 500px;
-  margin-right: 50px;
+  margin-left: 50px;
 `;
 
 export const Itens = styled.div`
