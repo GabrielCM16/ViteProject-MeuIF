@@ -1,12 +1,15 @@
 import { Footer } from "./components/footer"
+import { Avaliacoes } from "./components/avaliacoes"
+import { ConclusaoAvaliacoes } from "./components/conclusaoAvaliacoes"
 
 function App() {
 
   return (
     <>
-      <div>
-        Vamo começar né fazer oq
-      </div>
+     
+        <Avaliacoes/>
+        <ConclusaoAvaliacoes/>
+      
       <Footer/>
      
     </>
