@@ -1,4 +1,4 @@
-
+import { Footer } from "./components/footer"
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
       <div>
         Vamo começar né fazer oq
       </div>
+      <Footer/>
      
     </>
   )
