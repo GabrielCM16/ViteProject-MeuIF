@@ -1,7 +1,7 @@
 import {styled} from "styled-components";
 
 export const Container = styled.header`
-    background-color: #333;
+    background-color: #f4e6c6;
     text-align: center;
     padding-bottom: 10px;
     display: flex;
@@ -10,7 +10,7 @@ export const Container = styled.header`
 `;
 
 export const LiPrimeiro = styled.li`
-    color: #fff;
+    color: black;
     font: 2.3vw "Oswald", sans-serif;
     list-style-type: none; /* Remover bolinhas */
     margin-top: -20px;
