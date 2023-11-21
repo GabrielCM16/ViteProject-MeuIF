@@ -7,7 +7,6 @@ import pc from '../../assets/logos/definicoes.png'
 
 export function Desenvolvimento() {
     return (
-
             
         <Main>
             <DivTitulo>
@@ -23,11 +22,11 @@ export function Desenvolvimento() {
                 </BoxImg>
                 <h3>1) Levantamento de Requisitos</h3>
                 <ul>
-                    <LI>Análise das políticas e estratégias pedagógicas</LI>
+                    <LI>AnáLIse das políticas e estratégias pedagógicas</LI>
                     <LI>Definição das funcionaLIdades</LI>
                 </ul>
             </Item>
-            
+
             <Item>
                 <BoxImg>
                     <img src={quebraCabeça} alt="quebraCabeça Logo" />
