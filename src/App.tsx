@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Footer } from "./components/footer"
@@ -8,22 +7,22 @@ import { Conclusao } from "./components/conclusao"
 import { Desenvolvimento } from "./components/desenvolvimento"
 import { Introducao } from "./components/introducao"
 import { Funcionalidades } from "./components/funcionalidades"
-import Menu from './components/menu/Menu'; 
 import * as styles from './components/menu/styles';
 
-const App: React.FC = () => {
-  const [currentSection, setCurrentSection] = useState<string>('home');
 
+const App: React.FC = () => {
+  const [currentSection] = useState<string>('home');
   const handleMenuItemClick = (section: string) => {
-    setCurrentSection(section);
     scrollToSection(section);
   };
 
   const scrollToSection = (section: string) => {
     const element = document.getElementById(section);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({ behavior: 'smooth' });
     }
+
+  
   };
 
   return (
@@ -54,6 +53,7 @@ const App: React.FC = () => {
       <div id="conclusaoAvaliacoes">
         {currentSection === 'conclusaoAvaliacoes' && <ConclusaoAvaliacoes />}
       </div>
+      
       <>
         <Introducao />
         <Desenvolvimento />
